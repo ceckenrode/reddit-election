@@ -1,7 +1,7 @@
 import React from 'react';
 import './CenterContainer.css';
 
-const CenterContainer = (props) => (
+const CenterContainer = props => (
   <div className="wrapper container">
   <h1 className="text-center">Reddit Elections</h1>
   <h2 className="text-center">Where the Popular Vote Always Wins</h2>

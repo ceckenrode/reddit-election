@@ -3,7 +3,7 @@ import Thumbnail from '../Thumbnail';
 import VoteWidget from '../VoteWidget';
 import './VoteListItem.css';
 
-const VoteListItem = (props) => (
+const VoteListItem = props => (
   <li className="candidate list-group-item">
     <Thumbnail image={props.image} />
     <section className="info">

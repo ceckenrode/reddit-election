@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import svg from '../../assets/images/SVG/react.svg';
 
-const Footer = props => (
+const Footer = () => (
   <footer className="footer">
     <span className="bottom">
       Built with React.js {"  "}
