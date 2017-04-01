@@ -1,0 +1,15 @@
+div.candidate-thumbnail {
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+}
+
+@media (max-width: 565px) {
+  div.candidate-thumbnail {
+    width: 100%;
+    padding-top: 100%; 
+  }
+}

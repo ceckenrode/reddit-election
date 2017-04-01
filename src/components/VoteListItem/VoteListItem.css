@@ -1,0 +1,52 @@
+li.candidate {
+  position: relative;
+  border-color: #34495e;
+  background: #ecf0f1;
+}
+
+li.candidate::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+li.candidate section.info {
+  float: left;
+  padding: 10px;
+  width: 750px;
+}
+
+@media (max-width: 1200px) {
+
+  li.candidate section.info {
+    width: 500px;
+  }
+
+}
+
+@media (max-width: 720px) {
+  li.candidate section.info {
+    width: 400px;
+  }
+}
+
+@media (max-width: 650px) {
+  li.candidate section.info {
+    width: 350px;
+  }
+}
+
+@media (max-width: 565px) {
+  li.candidate section.info {
+    width: 100%;
+  }
+}
+
+/*@media (max-width: 500px) {
+  li.candidate section.info {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid blue;
+  }
+}*/

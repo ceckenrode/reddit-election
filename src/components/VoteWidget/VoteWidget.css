@@ -1,0 +1,46 @@
+span.vote-container {
+  position: absolute;
+  width: 20px;
+  right: 10px;
+  width: auto;
+}
+
+i.vote {
+  margin: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+i.upvote:hover {
+  color: #00c853;
+}
+
+i.downvote:hover {
+  color: #d50000;
+}
+
+@media (max-width: 565px) {
+  span.vote-container.dark {
+    color: white;
+  }
+
+  span.vote-container.dark i.upvote:hover {
+    color: white;
+  }
+
+  span.vote-container.light i.downvote:hover {
+    color: white;
+  }
+
+  span.vote-container.light {
+    color: black;
+  }
+
+  span.vote-container.light i.upvote:hover {
+    color: black;
+  }
+
+  span.vote-container.light i.downvote:hover {
+    color: black;
+  }
+}

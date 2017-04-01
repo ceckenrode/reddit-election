@@ -1,0 +1,18 @@
+footer.footer {
+  background: #18BC9C;
+  min-height: 125px;
+  overflow: auto;
+  margin: 0;
+  position: relative;
+}
+
+footer.footer > span.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #16a085;
+  font-size: 18px;
+  padding: 5px;
+  color: #ecf0f1;
+}
