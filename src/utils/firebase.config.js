@@ -11,6 +11,4 @@ const config = {
 
 firebase.initializeApp(config);
 
-
-
 export const fb = firebase.database().ref('/candidates');
